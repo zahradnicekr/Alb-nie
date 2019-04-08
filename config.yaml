@@ -1,0 +1,20 @@
+title: Kostel sv. Filipa a Jakuba
+
+baseURL: https://peaceful-blackwell-205b46.netlify.com/
+languageCode: cs-cz
+publishDir: public
+
+menu:
+  main:
+    - name: Homepage
+      url: /
+      weight: 10
+    - name: Archive
+      identifier: post
+      url: /post/
+      weight: 20
+
+params:
+  description: Description of my new site.
+  authors: Authors
+
